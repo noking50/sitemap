@@ -1,0 +1,18 @@
+{
+    "name": "noking50/sitemap",
+    "description": "Sitemap manage all routes",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "noking50",
+            "email": "noking50@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Noking50\\Sitemap\\": "src"
+        }
+    }
+}
