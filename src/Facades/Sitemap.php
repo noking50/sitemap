@@ -1,13 +1,13 @@
 <?php
 
-namespace Noking50\Sitemap;
+namespace Noking50\Sitemap\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @see Noking50\Sitemap\Sitemap
  */
-class SitemapFacade extends Facade {
+class Sitemap extends Facade {
 
     /**
      * Get the registered name of the component.

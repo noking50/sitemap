@@ -2,7 +2,7 @@
 
 namespace Noking50\Sitemap;
 
-use Noking50\Sitemap\Sitemap;
+use Noking50\Sitemap\Facades\Sitemap;
 use Noking50\Sitemap\SitemapAccess;
 
 /**

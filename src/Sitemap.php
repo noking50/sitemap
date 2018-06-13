@@ -4,8 +4,8 @@ namespace Noking50\Sitemap;
 
 use Noking50\Sitemap\SitemapNode;
 use Noking50\Sitemap\SitemapPermission;
-use Illuminate\Routing\Router as Route;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Request;
 
 /**
  * 網站地圖 配合Route使用
