@@ -12,7 +12,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Noking50\\Sitemap\\": "src"
+            "Noking50\\Sitemap\\": "src/Sitemap"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Noking50\\Sitemap\\SitemapServiceProvider"
+            ],
+            "aliases": {
+                "Sitemap": "Noking50\\Sitemap\\Facades\\Sitemap"
+            }
         }
     }
 }
