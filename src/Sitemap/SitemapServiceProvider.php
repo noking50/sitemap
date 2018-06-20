@@ -14,7 +14,9 @@ class SitemapServiceProvider extends ServiceProvider {
     protected $defer = true;
 
     public function boot() {
-        
+        $this->publishes([
+            __DIR__ . '/../config/sitemap.php' => config_path('sitemap.php'),
+        ]);
     }
     
     /**
