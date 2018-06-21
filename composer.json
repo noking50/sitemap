@@ -21,7 +21,8 @@
                 "Noking50\\Sitemap\\SitemapServiceProvider"
             ],
             "aliases": {
-                "Sitemap": "Noking50\\Sitemap\\Facades\\Sitemap"
+                "Sitemap": "Noking50\\Sitemap\\Facades\\Sitemap",
+                "SitemapAccess": "Noking50\\Sitemap\\SitemapAccess"
             }
         }
     }
